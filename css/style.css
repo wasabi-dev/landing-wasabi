@@ -168,7 +168,8 @@ a:active {
 /* header style */
 header {
   padding: 20px 0;
-  background: rgb(78, 151, 135);
+  background: rgba(41, 40, 40, 0.7);
+  
 }
 
 header .navbar {
@@ -211,7 +212,7 @@ header .navbar {
 }
 
 .menu a {
-  color: #333;
+  color: #40FF00;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   position: relative;
