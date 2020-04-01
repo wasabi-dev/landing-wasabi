@@ -258,25 +258,28 @@ header .navbar {
   padding: 250px 0;
   text-align: center;
   position: relative;
+  text-shadow: 1px 1px 20px black, 0 0 1em white, 0 0 0.2em white;
 }
 
 #banner .block {
   position: relative;
   z-index: 999;
-  color: #fff;
+  color: black;
 }
 
 #banner .block h1 {
   padding-bottom: 25px;
   font-size: 55px;
   font-weight: 100;
-  color: #80d6a3;
+  color: black;
+  font-weight: bold;
 }
 
 #banner .block h2 {
   font-size: 18px;
   line-height: 30px;
   font-weight: 300;
+  font-weight: bold;
 }
 
 #banner .block .btn-learn {
