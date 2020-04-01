@@ -168,7 +168,7 @@ a:active {
 /* header style */
 header {
   padding: 20px 0;
-  background: #fff;
+  background: rgb(78, 151, 135);
 }
 
 header .navbar {
@@ -251,7 +251,7 @@ header .navbar {
    Home page style
    ================= */
 #banner {
-  background: url("../img/bannerw.jpg");
+  background: url("../img/banner-01.jpg");
   background-size: cover;
   background-position: center;
   padding: 250px 0;
