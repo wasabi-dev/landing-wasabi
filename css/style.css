@@ -168,7 +168,8 @@ a:active {
 /* header style */
 header {
   padding: 20px 0;
-  background: #fff;
+  background: rgba(41, 40, 40, 0.7);
+  
 }
 
 header .navbar {
@@ -211,7 +212,7 @@ header .navbar {
 }
 
 .menu a {
-  color: #333;
+  color: #40FF00;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   position: relative;
@@ -251,31 +252,34 @@ header .navbar {
    Home page style
    ================= */
 #banner {
-  background: url("../img/bannerw.jpg");
+  background: url("../img/banner-01.jpg");
   background-size: cover;
   background-position: center;
   padding: 250px 0;
   text-align: center;
   position: relative;
+  text-shadow: 1px 1px 20px black, 0 0 1em white, 0 0 0.2em white;
 }
 
 #banner .block {
   position: relative;
   z-index: 999;
-  color: #fff;
+  color: black;
 }
 
 #banner .block h1 {
   padding-bottom: 25px;
   font-size: 55px;
   font-weight: 100;
-  color: #80d6a3;
+  color: black;
+  font-weight: bold;
 }
 
 #banner .block h2 {
   font-size: 18px;
   line-height: 30px;
   font-weight: 300;
+  font-weight: bold;
 }
 
 #banner .block .btn-learn {
