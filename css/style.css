@@ -258,7 +258,7 @@ header .navbar {
   padding: 250px 0;
   text-align: center;
   position: relative;
-  text-shadow: 1px 1px 20px black, 0 0 1em white, 0 0 0.2em white;
+  text-shadow: 1px 1px 20px black, 0 0 1em #80d6a3, 0 0 0.2em #80d6a3;
 }
 
 #banner .block {
