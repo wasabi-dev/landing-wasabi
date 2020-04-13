@@ -1,3 +1,41 @@
+//Comentarios;
+$(document).ready(function() {
+    $("#submitComment").click(function() {
+        var name = $("input#name").val();
+        var comment = $("textarea#comment").val();
+        var now = new Date();
+        var date_show = now.getDate() + '-' + now.getMonth() + '-' + now.getFullYear() + ' ' + now.getHours() + ':' + + now.getMinutes() + ':' + + now.getSeconds();
+ 
+        if (name === '') {
+            alert('Debes añadir un nombre.');
+            return false;
+        }
+ 
+        if (comment === '') {
+            alert('Debes añadir un comentario.');
+            return false;
+        }
+ 
+        var dataString = 'name=' + name + '&comment=' + comment;
+ 
+        $.ajax({
+            type: "POST",
+            dataType: "json",
+            url: "process.php",
+            data: dataString,
+            success: function(response) {
+                if (response) {
+                    $('#new-comment').show();
+                    $('#new-comment').find('#author-name').text(response.name);
+                    $('#new-comment').find('.comment-text').text(response.comment);
+                    $('#new-comment').find('#date-show').text(response.date_show);
+                }
+            }
+        });
+        return false;
+    });
+});
+
 $(document).ready(function() {
  
 	var owl = $("#header-slider");
