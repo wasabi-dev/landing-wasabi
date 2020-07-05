@@ -33,6 +33,15 @@ section.parallax h4{
   display: flex;
   justify-content: center;
 }
+.modal-dialog{
+  width: 70%;
+}
+.modalimg{
+  object-fit: contain;
+  max-width: 100%;
+}
+
+
 
 /*********************************/
 body {
@@ -267,13 +276,15 @@ header .navbar {
    Home page style
    ================= */
 #banner {
-  background: url("../img/banner-01.jpg");
+  background: url("../img/portada-idea.jpg");
   background-size: cover;
   background-position: center;
   padding: 250px 0;
   text-align: center;
   position: relative;
-  text-shadow: 1px 1px 20px black, 0 0 1em #80d6a3, 0 0 0.2em #80d6a3;
+  /*text-shadow: 1px 1px 20px black, 0 0 1em #80d6a3, 0 0 0.2em #80d6a3;*/
+  padding-top: 400px;
+  padding-bottom: 0;
 }
 
 #banner .block {
@@ -286,7 +297,7 @@ header .navbar {
   padding-bottom: 25px;
   font-size: 55px;
   font-weight: 100;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 
