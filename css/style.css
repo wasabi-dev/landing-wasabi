@@ -2,6 +2,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,100);
 @import url(https://fonts.googleapis.com/css?family=Lora:400italic);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@font-face {
+  font-family: 'Amatic SC' ;
+  src: url(../fonts/AmaticSC-Bold.ttf);
+}
 /* ==================*/
  *
 #blog-post img.img-responsive{
@@ -40,7 +44,28 @@ section.parallax h4{
   object-fit: contain;
   max-width: 100%;
 }
+.block h1{
+  font-family: 'Amatic SC';
+  line-height: 1.5;
+}
 
+#contact-form .social .icon-box a i{
+  font-size: 3em;
+}
+#contact-form .social .icon-box i.ion-social-facebook{
+  color: rgb(37, 62, 146);
+}
+#contact-form .social .icon-box i.ion-social-instagram{
+  color: rgb(108, 17, 194);
+}
+
+#contact-form .social .icon-box a{
+  padding-left: 1em;
+  color: #474747;
+}
+#contact-form .social .icon-box a:hover{
+  color: rgb(99, 132, 240);
+}
 
 
 /*********************************/
@@ -366,14 +391,15 @@ header .navbar {
 }
 
 #features {
-  padding: 100px 0 0;
+  padding: 50px 0 0;
   background-image: url(../img/fondo-services.jpg);
   background-attachment: fixed;
   background-size: cover;
+  
 }
 
 #features .feature-block {
-  padding-bottom: 35px;
+  padding-bottom: 30px;
 }
 
 #features .feature-block .icon-box {
@@ -386,7 +412,7 @@ header .navbar {
   font-size: 60px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  color: #008000;
+  color: #087908;
 }
 
 #features .feature-block h4 {
@@ -400,7 +426,7 @@ header .navbar {
 
 #features .feature-block p {
   font-size: 15px;
-  color: #888;
+  color: #2d2d2d;
   line-height: 24px;
   font-weight: 300;
   margin-top: 20px;
@@ -408,6 +434,9 @@ header .navbar {
 
 #features .showcase-img {
   margin-top: 40px;
+}
+.recent-work-pic img.img-responsive{
+   height: 250px;
 }
 
 #counter {
