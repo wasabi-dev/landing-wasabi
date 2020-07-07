@@ -446,7 +446,8 @@ header .navbar {
   margin-top: 40px;
 }
 .recent-work-pic img.img-responsive{
-   height: 250px;
+   height: 18em;
+   object-fit: cover;
 }
 
 #counter {
