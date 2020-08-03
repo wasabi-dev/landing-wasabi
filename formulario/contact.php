@@ -22,7 +22,13 @@ if (!$_POST){
     $headers .= "From: \"".$_POST['nombre']." ".$_POST['apellido']."\" <".$remitente.">\n";
 
     mail($destinatario, $asunto, $cuerpo, $headers);
+
+    echo '<script language="javascript">
+            alert("Thanks! We will contact you soon");
+            window.location= "contact.html"
+            </script>';
+
     
-    include 'confirma.html'; //se debe crear un html que confirma el envío
+    //include 'confirma.html'; //se debe crear un html que confirma el envío
 }
 ?>
