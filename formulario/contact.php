@@ -1,8 +1,10 @@
 ﻿<?php
+
 $remitente = $_POST['email'];
 $destinatario = 'wasabidevelopment@gmail.com'; // en esta línea va el mail del destinatario.
 $asunto = 'Consulta'; // acá se puede modificar el asunto del mail
 if (!$_POST){
+
 ?>
 
 <?php
@@ -25,7 +27,7 @@ if (!$_POST){
 
     echo '<script language="javascript">
             alert("Thanks! We will contact you soon");
-            window.location= "contact.html"
+            window.location= "confirma.html"
             </script>';
 
     
