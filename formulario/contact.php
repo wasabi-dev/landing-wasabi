@@ -1,8 +1,15 @@
 ﻿<?php
+if (!$_POST){
 $remitente = $_POST['email'];
 $destinatario = 'wasabidevelopment@gmail.com'; // en esta línea va el mail del destinatario.
 $asunto = 'Consulta'; // acá se puede modificar el asunto del mail
-if (!$_POST){
+
+echo '<script language="javascript">
+alert("Perdón! No pudimos enviar tu mensaje, por favor, intenta más tarde");
+window.location= "contact.html"
+</script>';
+
+
 ?>
 
 <?php
@@ -22,7 +29,13 @@ if (!$_POST){
     $headers .= "From: \"".$_POST['nombre']." ".$_POST['apellido']."\" <".$remitente.">\n";
 
     mail($destinatario, $asunto, $cuerpo, $headers);
+
+    echo '<script language="javascript">
+            alert("Thanks! We will contact you soon");
+            window.location= "contact.html"
+            </script>';
+
     
-    include 'confirma.html'; //se debe crear un html que confirma el envío
+    //include 'confirma.html'; //se debe crear un html que confirma el envío
 }
 ?>
