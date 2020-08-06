@@ -1,22 +1,9 @@
 ﻿<?php
-<<<<<<< HEAD
-if (!$_POST){
-$remitente = $_POST['email'];
-$destinatario = 'wasabidevelopment@gmail.com'; // en esta línea va el mail del destinatario.
-$asunto = 'Consulta'; // acá se puede modificar el asunto del mail
-
-echo '<script language="javascript">
-alert("Perdón! No pudimos enviar tu mensaje, por favor, intenta más tarde");
-window.location= "contact.html"
-</script>';
-
-=======
 
 $remitente = $_POST['email'];
 $destinatario = 'wasabidevelopment@gmail.com'; // en esta línea va el mail del destinatario.
 $asunto = 'Consulta'; // acá se puede modificar el asunto del mail
 if (!$_POST){
->>>>>>> c88dbbb0f29e41db13c99fc5ee80df2ab934680b
 
 ?>
 
@@ -40,11 +27,7 @@ if (!$_POST){
 
     echo '<script language="javascript">
             alert("Thanks! We will contact you soon");
-<<<<<<< HEAD
-            window.location= "contact.html"
-=======
             window.location= "confirma.html"
->>>>>>> c88dbbb0f29e41db13c99fc5ee80df2ab934680b
             </script>';
 
     
