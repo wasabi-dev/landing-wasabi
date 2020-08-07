@@ -76,7 +76,11 @@ section.parallax h4{
 #contact-form .social .icon-box a:hover{
   color: rgb(99, 132, 240);
 }
-
+button.chat{
+  position: fixed;
+  bottom: 2em;
+  float: right;
+}
 
 /*********************************/
 body {
