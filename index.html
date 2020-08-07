@@ -407,12 +407,14 @@
             </div>
         </div>
 	</section>
-	<button class="chat">Chatea con Wasabi</button>
-	<iframe
+	<button class="chat" onclick="OpenForm()">Chatea con Wasabi</button>
+	<div class="icon" id="icon" onclick="cerrarForm()"><i class="ion-close"></i></div>
+	<iframe id="chatbox"  
     allow="microphone;"
     width="350"
     height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/b2f58a55-89f3-4c68-bd18-9bf3c5998659">
+	src="https://console.dialogflow.com/api-client/demo/embedded/b2f58a55-89f3-4c68-bd18-9bf3c5998659">
+	
 </iframe>
 
     <footer>

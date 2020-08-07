@@ -89,9 +89,16 @@ button.chat{
 #chatbox{
   display: none;
   position: fixed;
-  bottom: 2em;
+  bottom: 3em;
   left: 70%;
   }
+.icon{
+   display: none;
+   position: fixed;
+   bottom: 1em;
+   left: 82%;
+   z-index: 9999;
+}
 
 
 /*********************************/
