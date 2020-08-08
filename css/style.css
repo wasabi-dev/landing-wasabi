@@ -99,8 +99,8 @@ button.chat{
    left: 82%;
    z-index: 9999;
 }
-
-
+.navbar-fixed-bottom, .navbar-fixed-top{
+  z-index:100}
 /*********************************/
 body {
   line-height: 24px;
