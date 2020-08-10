@@ -471,6 +471,7 @@ header .navbar {
 }
 .recent-work-pic img.img-responsive{
    height: 250px;
+   object-fit: cover;
 }
 
 #counter {
