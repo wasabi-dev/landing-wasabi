@@ -76,8 +76,31 @@ section.parallax h4{
 #contact-form .social .icon-box a:hover{
   color: rgb(99, 132, 240);
 }
-
-
+button.chat{
+  position: fixed;
+  bottom: 0.5em;
+  left: 85%;
+  padding: 1em;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(22, 184, 8);
+  border: 0;
+}
+#chatbox{
+  display: none;
+  position: fixed;
+  bottom: 3em;
+  left: 70%;
+  }
+.icon{
+   display: none;
+   position: fixed;
+   bottom: 1em;
+   left: 82%;
+   z-index: 9999;
+}
+.navbar-fixed-bottom, .navbar-fixed-top{
+  z-index:100}
 /*********************************/
 body {
   line-height: 24px;
@@ -448,6 +471,7 @@ header .navbar {
 }
 .recent-work-pic img.img-responsive{
    height: 250px;
+   object-fit: cover;
 }
 
 #counter {

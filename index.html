@@ -88,12 +88,12 @@
                                 Una web bien diseñada y optimizada para cualquier dispositivo
                                 puede hacer la diferencia entre un nuevo cliente o uno que no 
                                 recuperes nunca más. 
-                                Los sitios que creamos son webs accesibles desde cualquier dispositivo</p>
+                                </p>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-6">
 						<div class="feature-block text-center">
-							<div class="icon-box wow fadeInRight" data-wow-delay=".7s"">
+							<div class="icon-box wow fadeInRight" data-wow-delay=".7s">
 								<i class="ion-arrow-shrink"></i>
 							</div>
 							<h4 class="wow fadeInUp" data-wow-delay=".3s">Landing Pages</h4>
@@ -112,9 +112,8 @@
 							<h4 class="wow fadeInUp" data-wow-delay=".3s">Tiendas Online</h4>
 							<p class="wow fadeInUp" data-wow-delay=".5s">Tiendas digitales atractivas, 
                                 con diseños que crean una experiencia de compra fácil y agradable para 
-                                el usuario. Adaptables para cualquier tipo de producto que vendas. 
-                                También disponible el modo catálogo para mostrar los productos y 
-                                luego confirmar la compra contactando al comprador. </p>
+                                el usuario.<br> Adaptables para cualquier tipo de producto que vendas. 
+                                 </p>
 						</div>
 					</div>
                 <div class="col-md-3 col-sm-6 col-xs-6">
@@ -124,10 +123,9 @@
                         </div>
                         <h4 class="wow fadeInUp" data-wow-delay=".3s">Marketing Digital</h4>
                         <p class="wow fadeInUp" data-wow-delay=".5s"> Las palabras bien elegidas 
-                            tienen mucho poder. Por eso creamos textos persuasivos que conecten con 
-                            tu público objetivo. 
+                            tienen mucho poder.
                             La edición del texto se trabaja no sólo en un blog, sino en los anuncios 
-                            y campañas publicitarias que gestionamos sino también las redes sociales.  </p>
+                            y campañas publicitarias que gestionamos sino también las redes sociales.</p>
                     </div>
                 </div>
             </div>
@@ -395,16 +393,24 @@
                 </div>
                 </div>
                 <div class="col-md-6">
-                    <form action="contact.php"  method="post">
-                        <input type="text" name="nombre" class="form-control" placeholder="Nombre">
-                        <input type="email" name="email" class="form-control" placeholder="Email">
-                        <textarea class="form-control" rows="3" name="mensaje" placeholder="Mensaje"></textarea>
-                        <button class="btn btn-default" type="submit">ENVIAR</button>
-                    </form>
+
+                   
                 </div>
             </div>
         </div>
-    </section>
+	</section>
+	<!----<button class="chat" onclick="OpenForm()">Chatea con Wasabi</button>
+	<div class="icon" id="icon" onclick="cerrarForm()"><i class="ion-close"></i></div>--->
+	<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-icon="https://storage.googleapis.com/cloudprod-apiai/dd4a8c26-9058-462c-9198-ae4126a03f0b_x.png"
+  intent="WELCOME"
+  chat-title="Wasabi"
+  agent-id="b2f58a55-89f3-4c68-bd18-9bf3c5998659"
+  language-code="es"
+></df-messenger>
+
+
     <footer>
         <div class="container">
             <div class="row">
@@ -419,9 +425,6 @@
     </footer>
 </div>
 
-
-
-
         <script src="js/jquery-1.11.3.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/waypoints.min.js"></script>
@@ -435,7 +438,7 @@
 		<script src="js/jquery.sticky.js"></script>
 		<script src="js/jquery.nav.js"></script>
 		<script src="js/main.js"></script>
-		<script src="js/main.js"></script>
+		<script src="js/micodigo.js"></script>
 
 </body>
 </html>
