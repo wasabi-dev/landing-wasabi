@@ -7,7 +7,7 @@
   src: url(../fonts/AmaticSC-Bold.ttf);
 }
 /* ==================*/
-body{
+html{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -96,7 +96,7 @@ section.parallax h4{
     z-index: 20;
     bottom: 6em;
     text-align: center;
-    right: 1.5em;
+    right: 1.2em;
             transition-timing-function: ease-in-out;
             transition-duration: 2s;
   }
@@ -105,15 +105,7 @@ section.parallax h4{
     -webkit-transform: translateY(-20px);
             transform: translateY(-20px);
   }
-  @media only screen and (max-width: 450px) {
-    .whatsapp {
-      right: 45px;
-    }
-    iframe.df-messenger-wrapper{
-      bottom: 2em;
-      right: 2em;
-    }
-  }
+  
 /*********************************/
 body {
   line-height: 24px;
