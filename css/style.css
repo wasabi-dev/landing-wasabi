@@ -11,6 +11,7 @@ body{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  max-width: 100%;
 }
 #blog-post img.img-responsive{
   height: 300px;
@@ -95,7 +96,6 @@ section.parallax h4{
     z-index: 20;
     bottom: 6em;
     text-align: center;
-    float: right;
     right: 1.5em;
             transition-timing-function: ease-in-out;
             transition-duration: 2s;
@@ -104,6 +104,15 @@ section.parallax h4{
   .whatsapp :hover {
     -webkit-transform: translateY(-20px);
             transform: translateY(-20px);
+  }
+  @media only screen and (max-width: 450px) {
+    .whatsapp {
+      right: 45px;
+    }
+    iframe.df-messenger-wrapper{
+      bottom: 2em;
+      right: 2em;
+    }
   }
 /*********************************/
 body {
