@@ -7,7 +7,12 @@
   src: url(../fonts/AmaticSC-Bold.ttf);
 }
 /* ==================*/
- *
+html{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  max-width: 100%;
+}
 #blog-post img.img-responsive{
   height: 300px;
   object-fit: cover;
@@ -91,8 +96,7 @@ section.parallax h4{
     z-index: 20;
     bottom: 6em;
     text-align: center;
-    float: right;
-    right: 1.5em;
+    right: 1.2em;
             transition-timing-function: ease-in-out;
             transition-duration: 2s;
   }
@@ -101,6 +105,7 @@ section.parallax h4{
     -webkit-transform: translateY(-20px);
             transform: translateY(-20px);
   }
+  
 /*********************************/
 body {
   line-height: 24px;
@@ -347,7 +352,6 @@ header .navbar {
 
 #banner .block {
   position: relative;
-  z-index: 999;
   color: black;
 }
 
