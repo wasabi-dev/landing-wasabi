@@ -347,7 +347,7 @@ header .navbar {
 
 #banner .block {
   position: relative;
-  z-index: 999;
+  z-index: 99;
   color: black;
 }
 
