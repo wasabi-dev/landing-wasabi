@@ -7,7 +7,12 @@
   src: url(../fonts/AmaticSC-Bold.ttf);
 }
 /* ==================*/
- *
+html{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  max-width: 100%;
+}
 #blog-post img.img-responsive{
   height: 300px;
   object-fit: cover;
@@ -76,31 +81,31 @@ section.parallax h4{
 #contact-form .social .icon-box a:hover{
   color: rgb(99, 132, 240);
 }
-button.chat{
-  position: fixed;
-  bottom: 0.5em;
-  left: 85%;
-  padding: 1em;
-  border-radius: 10px;
-  color: white;
-  background-color: rgb(22, 184, 8);
-  border: 0;
+#contact-form .icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-#chatbox{
-  display: none;
-  position: fixed;
-  bottom: 3em;
-  left: 70%;
-  }
-.icon{
-   display: none;
-   position: fixed;
-   bottom: 1em;
-   left: 82%;
-   z-index: 9999;
-}
+
 .navbar-fixed-bottom, .navbar-fixed-top{
   z-index:100}
+  .whatsapp {
+    display: block;
+    position: fixed;
+    z-index: 20;
+    bottom: 6em;
+    text-align: center;
+    right: 1.2em;
+            transition-timing-function: ease-in-out;
+            transition-duration: 2s;
+  }
+  
+  .whatsapp :hover {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  
 /*********************************/
 body {
   line-height: 24px;
@@ -347,7 +352,6 @@ header .navbar {
 
 #banner .block {
   position: relative;
-  z-index: 99;
   color: black;
 }
 
@@ -471,6 +475,7 @@ header .navbar {
 }
 .recent-work-pic img.img-responsive{
    height: 250px;
+   object-fit: cover;
 }
 
 #counter {
