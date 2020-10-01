@@ -105,7 +105,18 @@ section.parallax h4{
     -webkit-transform: translateY(-20px);
             transform: translateY(-20px);
   }
-  
+
+section#demos{
+  padding-top: 10%;
+ 
+}
+#demos #links img{
+  max-width: 80%;
+  padding-bottom: 1em;
+}
+figure.item{
+  text-align: center;
+}
 /*********************************/
 body {
   line-height: 24px;
