@@ -112,7 +112,8 @@ section#demos{
 }
 #demos #links img{
   max-width: 80%;
-  padding-bottom: 1em;
+  box-shadow: 2px 2px 2px 2px #adadadbf;
+  margin-bottom: 10px;
 }
 figure.item{
   text-align: center;
