@@ -107,8 +107,11 @@ section.parallax h4{
   }
 
 section#demos{
-  padding-top: 10%;
+  padding-top: 15%;
  
+}
+#demos .title{
+  padding-top: 3em;
 }
 #demos #links img{
   max-width: 80%;
