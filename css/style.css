@@ -110,6 +110,9 @@ section#demos{
   padding-top: 15%;
  
 }
+div#links{
+      padding-bottom: 1em;
+}
 #demos .title{
   padding-top: 3em;
 }
@@ -117,6 +120,11 @@ section#demos{
   max-width: 80%;
   box-shadow: 2px 2px 2px 2px #adadadbf;
   margin-bottom: 10px;
+  overflow:hidden;
+  transition:all .5s ease-in-out;
+}
+#demos #links img:hover{
+  -webkit-transform:scale(1.3);transform:scale(1.3);
 }
 figure.item{
   text-align: center;
